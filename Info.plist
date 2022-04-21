@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>com.alessandrotezza.easyMark</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>100</string>
+	<key>RWAddonAuthor</key>
+	<string>Alessandro Tezza</string>
+	<key>RWAddonManagericonAsset</key>
+	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>https://www.alessandrotezza.it</string>
+	<key>author</key>
+	<string>Alessandro Tezza</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>default</key>
+			<string>easyMark</string>
+			<key>id</key>
+			<string>header</string>
+			<key>title</key>
+			<string>Header</string>
+			<key>tooltip</key>
+			<string>Prova</string>
+			<key>type</key>
+			<string>input</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>easyMark</string>
+			<key>id</key>
+			<string>copyright</string>
+			<key>title</key>
+			<string>Your Mark</string>
+			<key>tooltip</key>
+			<string>Mark</string>
+			<key>type</key>
+			<string>image</string>
+		</dict>
+		<dict>
+			<key>default</key>
+			<string>easyMark</string>
+			<key>id</key>
+			<string>color</string>
+			<key>title</key>
+			<string>Choose color</string>
+			<key>tooltip</key>
+			<string>Select your color</string>
+			<key>type</key>
+			<string>color</string>
+		</dict>
+	</array>
+	<key>copyright</key>
+	<string>EasyMark v1.0.0 Copyright 2022 Alessandro Tezza</string>
+	<key>helpURL</key>
+	<string>https://www.alessandrotezza.it</string>
+	<key>hidden</key>
+	<false/>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>https://www.alessandrotezza.it</string>
+	<key>inline</key>
+	<true/>
+	<key>minAPIVersion</key>
+	<integer>10</integer>
+	<key>missingURL</key>
+	<string>https://www.alessandrotezza.it</string>
+	<key>requiresPhp</key>
+	<true/>
+	<key>requiresPhpBuffer</key>
+	<true/>
+	<key>requiresPhpSession</key>
+	<false/>
+	<key>subtitle</key>
+	<string>The easiest way to apply watermark to your photos</string>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>each.html</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>html</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>each.css</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>css</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>each.js</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>js</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>each.php</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>php</string>
+		</dict>
+	</array>
+	<key>type</key>
+	<string>stack</string>
+	<key>title</key>
+	<string>easyMark</string>
+</dict>
+</plist>
